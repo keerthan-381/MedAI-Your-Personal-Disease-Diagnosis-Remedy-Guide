@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
 
 # Set your LLM token directly here
-LLM_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtyaXNobmFzYWlrZWVydGhhbi5uYWdhbmRsYUBncmFtZW5lci5jb20ifQ._9tWlsYeuhpfHi0aKTZGQE3FC3PjS5igzSQ0qtG_Zbc"  # Replace with your actual token
+LLM_TOKEN = "YOUR_TOKEN"  # Replace with your actual token
 
 # Load the trained model
 model = load_model("model/cnn_prognosis_model.h5")
